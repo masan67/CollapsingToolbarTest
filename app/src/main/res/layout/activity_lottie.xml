@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LottieActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="3">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:lottie_imageAssetsFolder="assets/"
+        app:lottie_fileName="yellow_lines.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:layout_weight="1"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:lottie_imageAssetsFolder="assets/"
+        app:lottie_fileName="multi_color_line.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:layout_weight="1"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:lottie_imageAssetsFolder="assets/"
+        app:lottie_fileName="red_pulse_circle.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
